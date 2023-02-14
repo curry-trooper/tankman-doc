@@ -5,13 +5,12 @@
 ```shell
 mkdir "tankManProject"
 vim .gitmodules
+```
 ## write in
+```shell
 [submodule "tankman.js"]
     path = tankman.js
     url = git@github.com:curry-trooper/tankman.js.git
-[submodule "test"]
-    path = test
-    url = git@github.com:curry-trooper/test.git
 [submodule "app"]
     path = app
     url = git@github.com:curry-trooper/tankman-app.git
@@ -27,10 +26,9 @@ vim .gitmodules
 ### clone repositories
 ```shell
 git clone --recursive git@github.com:curry-trooper/tankman.js.git && 
-git clone --recursive git@github.com:curry-trooper/test.git && 
 git clone --recursive git@github.com:curry-trooper/tankman-app.git &&
 git clone --recursive git@github.com:curry-trooper/tankman-cli.git &&
 git clone --recursive git@github.com:curry-trooper/tankman-doc.git &&
-echo "welcome tankMan!"
+echo welcome tankMan!
 
 ```
