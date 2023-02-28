@@ -20,6 +20,9 @@ vim .gitmodules
 [submodule "docs"]
     path = docs
     url = git@github.com:curry-trooper/tankman-doc.git
+[submodule "tank-cache"]
+    path = docs
+    url = git@github.com:curry-trooper/tank-cache.git
 
 ## wq
 ```
@@ -29,6 +32,7 @@ git clone --recursive git@github.com:curry-trooper/tankman.js.git &&
 git clone --recursive git@github.com:curry-trooper/tankman-app.git &&
 git clone --recursive git@github.com:curry-trooper/tankman-cli.git &&
 git clone --recursive git@github.com:curry-trooper/tankman-doc.git &&
+git clone --recursive git@github.com:curry-trooper/tank-cache.git &&
 echo welcome tankMan!
 
 ```
